@@ -14,6 +14,10 @@
 		9FF644572078A75600AF291B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF644552078A75600AF291B /* LaunchScreen.storyboard */; };
 		9FF644622078A75600AF291B /* barabaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF644612078A75600AF291B /* barabaraTests.swift */; };
 		9FF6446D2078A75600AF291B /* barabaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6446C2078A75600AF291B /* barabaraUITests.swift */; };
+		9FF644802078A88B00AF291B /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6447E2078A88A00AF291B /* tail.png */; };
+		9FF644812078A88B00AF291B /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6447F2078A88A00AF291B /* bar.png */; };
+		9FF644832078AE7400AF291B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF644822078AE7400AF291B /* GameViewController.swift */; };
+		9FF644852078AE8500AF291B /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF644842078AE8500AF291B /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9FF644682078A75600AF291B /* barabaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barabaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF6446C2078A75600AF291B /* barabaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barabaraUITests.swift; sourceTree = "<group>"; };
 		9FF6446E2078A75600AF291B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF6447E2078A88A00AF291B /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		9FF6447F2078A88A00AF291B /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		9FF644822078AE7400AF291B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9FF644842078AE8500AF291B /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				9FF6444C2078A75600AF291B /* AppDelegate.swift */,
 				9FF6444E2078A75600AF291B /* ViewController.swift */,
+				9FF644822078AE7400AF291B /* GameViewController.swift */,
+				9FF644842078AE8500AF291B /* RankingViewController.swift */,
 				9FF644502078A75600AF291B /* Main.storyboard */,
+				9FF6447F2078A88A00AF291B /* bar.png */,
+				9FF6447E2078A88A00AF291B /* tail.png */,
 				9FF644532078A75600AF291B /* Assets.xcassets */,
 				9FF644552078A75600AF291B /* LaunchScreen.storyboard */,
 				9FF644582078A75600AF291B /* Info.plist */,
@@ -233,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF644572078A75600AF291B /* LaunchScreen.storyboard in Resources */,
+				9FF644812078A88B00AF291B /* bar.png in Resources */,
+				9FF644802078A88B00AF291B /* tail.png in Resources */,
 				9FF644542078A75600AF291B /* Assets.xcassets in Resources */,
 				9FF644522078A75600AF291B /* Main.storyboard in Resources */,
 			);
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF6444F2078A75600AF291B /* ViewController.swift in Sources */,
+				9FF644832078AE7400AF291B /* GameViewController.swift in Sources */,
 				9FF6444D2078A75600AF291B /* AppDelegate.swift in Sources */,
+				9FF644852078AE8500AF291B /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
